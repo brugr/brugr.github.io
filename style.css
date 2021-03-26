@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;600&display=swap');
 @import url('https://use.fontawesome.com/releases/v5.15.1/css/all.css');
 
 :root {
@@ -6,10 +6,12 @@
     --textColor: #D8DEE9;
     --accentColor: #88C0D0;
     
-    --font: 'Incosolata', monospace;
+    --font: 'Fira Code', monospace;
 }
 
-body { background-color: var(--bgColor); }
+body {
+    background-color: var(--bgColor);
+}
 
 h1, a, i {
     color: var(--textColor);
@@ -17,11 +19,26 @@ h1, a, i {
     text-decoration: none;
 }
 
-h1 { font-size: 2.5rem; }
+h1 {
+    font-size: 4rem;
+    font-weight: 600;
+}
 
-a { font-size: 1.25rem; }
+a {
+    font-size: 1.5rem; 
+    word-spacing: -0.3rem;
+    font-weight: 500;
+}
 
-div.hover:hover a { color: var(--accentColor); }
+a:hover {
+    color: var(--accentColor)
+}
+
+br {
+    display: block;
+    content: "";
+    margin-top: 0.15rem;
+}
 
 div#main {
     position: absolute;
