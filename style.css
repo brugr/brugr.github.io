@@ -2,9 +2,9 @@
 @import url('https://use.fontawesome.com/releases/v5.15.1/css/all.css');
 
 :root {
-    --bgColor: #2E3440;
-    --textColor: #D8DEE9;
-    --accentColor: #88C0D0;
+    --bgColor: #0a0a0a;
+    --textColor: #e2e2e2;
+    --accentColor: #1e6bea;
     
     --font: 'Fira Code', monospace;
 }
